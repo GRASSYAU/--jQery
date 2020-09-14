@@ -1,0 +1,36 @@
+body {
+    background-image: url(leather_1.png);
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    padding-top: 50px;
+}
+
+.box {
+    /* width:1200px; */ /*這是原定要做的寬度*/
+    width: 760px; /*這是減掉 padding 和 border 之後的寬度*/
+    background-color: #FFF;
+	
+    margin-left: auto;
+    margin-right: auto;
+	
+    padding-top: 30px;
+    padding-bottom: 30px;
+	
+    padding-left: 200px;
+    padding-right: 200px;
+	
+    border: 20px solid #9CC;
+}
+
+.box h1 {
+    letter-spacing: 2px;
+}
+
+.box p {
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+
+/* 使用網頁開發者工具 F12 */

@@ -1,0 +1,72 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:#EEE;
+	font-family:Arial, Helvetica,"微軟正黑體" ,sans-serif;
+}
+
+#top{
+	width:1200px;
+	height:386px;
+	margin:0 auto;
+	background-image:url(images/tom-gainor-776683-unsplash.jpg);
+}
+
+#top h2{
+	color:#FFF;
+	text-align:center;
+	font-size:50px;
+	padding-top:120px; /*把文字往下推*/
+	text-transform:uppercase; /*把英文字變成大寫*/
+}
+
+#top h1{
+	color:#FFF;
+	text-align:center;
+	font-size:26px;
+}
+
+#center{
+	/*width:1200px;*/
+	width:800px;  /* 網頁的主要內容區通常是不設定高度的 */
+	margin:0 auto;
+	background-color:#FFF;
+	padding:80px 200px; /* padding: 上下  左右*/
+}
+
+#center h3{
+	text-align:center;
+	font-size:50px;
+	padding-bottom:20px; /*標題字下面空出大約一行*/
+}
+
+#center p{
+	font-size:16px;
+	line-height:1.8;
+	text-align:justify;
+	padding-bottom:16px; /*段落字下面空出一行*/
+}
+
+#down{
+	width:1200px;
+	height:100px;	
+	margin:0 auto;
+	background-color:#FFF;
+}
+
+#down hr{ 
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); /*CSS3 漸層設定*/
+}
+
+#down h3{
+	text-align:center; /*文字水平置中*/
+	line-height:100px; /*當文字的高和 <div> 區塊的高一樣的時候*/
+	                   /*就可以達到文字垂直置中*/
+	color:#999;
+	font-weight:normal; /*解除文字粗體，變成正常的細體字*/
+}

@@ -1,0 +1,90 @@
+@import url("reset.css");
+body {
+    font-family: "微軟正黑體", sans-serif;
+    background-color: #F5F5F5;
+}
+
+#MAIN {
+    width: 840px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid #333;
+    background-color: #FFF;
+    box-shadow: 1px 5px 10px #555;
+}
+
+#MAIN ul {
+    width: 840px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#MAIN li {
+    position: relative;
+    display: inline-block;
+    width: 208px;
+    height: 40px;
+    background-color: #DDD;
+    border: 1px solid #000;
+    float: left;
+    box-shadow: inset 0px -3px 8px #666;
+}
+
+#MAIN li a {
+    position: relative;
+    z-index: 99;
+    display: inline-block;
+    width: 208px;
+    height: 43px;
+    text-align: center;
+    line-height: 40px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#MAIN li a.nowTab {
+    background-color: #FFF;
+    color: #099;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#ALL {
+    overflow: hidden;
+    clear: both;
+}
+
+#ALL .box {
+    float: left;
+    width: 798px;
+    border: 1px solid #000;
+    border-bottom: 8px solid #333;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    z-index: 11;
+    display: none;
+    /*把全部的內容.boxs都關掉*/
+}
+
+#ALL .open {
+    display: block;
+}
+
+#ALL .box img {
+    float: left;
+    padding: 5px;
+}
+
+#ALL .box p {
+    float: right;
+    width: 510px;
+    font-size: 13px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    text-align: justify;
+}

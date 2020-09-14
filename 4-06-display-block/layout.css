@@ -1,0 +1,155 @@
+@import url("reset.css");
+body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    background-color: #369;
+}
+
+#top-out {
+    width: 100%;
+    height: 50px;
+    background-color: #369;
+}
+
+#top-out .nav {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#top-out .nav h3 {
+    color: #FFF;
+    line-height: 50px;
+    float: left;
+    text-transform: uppercase;
+}
+
+#top-out .nav ul {
+    float: right;
+}
+
+#top-out .nav li {
+    float: left;
+    margin-left: 10px;
+}
+
+#top-out .nav li a {
+    display: block;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#top-out .nav li a:hover {
+    color: #FC0;
+}
+
+#banner-out {
+    width: 100%;
+    height: 150px;
+    background-color: #39c;
+}
+
+#banner-out .banner {
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    background-image: url(images/banner.jpg);
+}
+
+#banner-out .banner h3 {
+    padding-top: 48px;
+    padding-left: 30px;
+    color: #FFF;
+    font-size: 38px;
+    letter-spacing: 4px;
+}
+
+#banner-out .banner h4 {
+    font-size: 14px;
+    padding-left: 30px;
+    color: #FFF;
+    letter-spacing: 2px;
+}
+
+#content-out {
+    width: 100%;
+    background-color: #fff;
+}
+
+#content {
+    /*width:1200px;*/
+    width: 860px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+#content h1 {
+    font-size: 24px;
+    padding-bottom: 16px;
+}
+
+#content p {
+    font-size: 15px;
+    line-height: 1.8;
+    padding-bottom: 16px;
+    text-align: justify;
+}
+
+#content .course {
+    width: 850px;
+    margin: 15px auto;
+}
+
+#content .title {
+    width: 850px;
+    height: 40px;
+    background-color: #CCC;
+    line-height: 40px;
+    color: #FFF;
+    text-indent: 50px;
+    cursor: pointer;
+}
+
+#content .box {
+    width: 800px;
+    height: 110px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    text-align: justify;
+    border-radius: 5px;
+    display: none;
+}
+
+#content #title-1 {
+    background-image: url(images/ps_title.jpg);
+}
+
+#content #title-2 {
+    background-image: url(images/ai_title.jpg);
+}
+
+#content #title-3 {
+    background-image: url(images/css_title.jpg);
+}
+
+#content #title-4 {
+    background-image: url(images/js_title.jpg);
+}
+
+#down-out {
+    width: 100%;
+    height: 50px;
+    background-color: #39c;
+}
+
+#down-out .down {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+}

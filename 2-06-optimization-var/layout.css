@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, "微軟正黑體", sans-serif;
+    color: #EEE;
+    background-color: #39b;
+    text-align: center;
+}
+
+#top{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(46, 134, 164);
+    margin-bottom: 40px;
+}
+
+h1{
+    line-height: 80px;
+    color: #EEE;
+}
+
+img {
+    border: 20px solid #FFF;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+
+}

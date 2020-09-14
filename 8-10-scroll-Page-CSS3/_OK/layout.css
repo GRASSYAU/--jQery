@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #BBB;
+    margin: 0;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#MENU {
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    position: fixed;
+    margin: 0 auto;
+    top: 0;
+    text-align: center;
+    box-shadow: 1px 6px 10px #666666;
+    line-height: 50px;
+    color: #FFF;
+    z-index: 99999;
+}
+
+#MENU span:hover {
+    color: #0EE;
+}
+
+h2 {
+    font-size: 60px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 160px;
+    font-family: Verdana, Geneva, "微軟正黑體", sans-serif;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 300px;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#AAA {
+    width: 100%;
+    height: 800px;
+    background-color: #9CF;
+}
+
+#BBB {
+    width: 100%;
+    height: 800px;
+    background-color: #9C9;
+}
+
+#CCC {
+    width: 100%;
+    height: 800px;
+    background-color: #e6b226;
+}
+
+#DDD {
+    width: 100%;
+    height: 800px;
+    background-color: #F9F;
+}
+
+div img { /*圖片的初始狀態*/
+    transition: 1.5s; /*設定動畫時間為 1.5 秒*/
+    position: relative;
+    top: 100px; /*設定圖片先往下移動100px*/
+    opacity: 0; /*設定圖片的透明度為0*/
+}
+
+div img.comeIN {  /*當捲軸拉到<div>時 讓圖片出現*/
+    transition: 1.5s;  /*設定動畫時間為 1.5 秒*/
+    position: relative;
+    top: 0px; /*設定圖片先往上移動回原位*/
+    opacity: 1; /*設定圖片的透明度為1*/
+}

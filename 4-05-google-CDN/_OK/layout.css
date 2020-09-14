@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    background-color: #EEE;
+}
+
+#top {
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    background-image: url(images/top.png);
+}
+
+#top h2 {
+    font-weight: normal;
+    /*解除粗體*/
+    font-size: 16px;
+    color: #FFF;
+    line-height: 40px;
+    /*文字的高度置中*/
+    text-indent: 50px;
+    /*字首縮排，也可以用來把文字往內推*/
+    /*使用 padding-left 也可以*/
+}
+
+#banner {
+    width: 1200px;
+    height: 255px;
+    margin: 0 auto;
+    background-image: url(images/banner.png);
+}
+
+#banner h1 {
+    text-align: center;
+    padding-top: 70px;
+    /*把文字往下推*/
+    color: #FFF;
+    font-size: 31px;
+}
+
+#banner h1 span {
+    font-size: 40px;
+}
+
+#nav {
+    width: 1160px;
+    height: 40px;
+    padding: 20px 20px 0 20px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#nav ul {
+    list-style: none;
+    float: right;
+    padding-right: 180px;
+}
+
+#nav li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #999;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    background-color: #069;
+    color: #FFF;
+}
+
+#nav li:hover {
+    background-color: #09C;
+}
+
+#content {
+    /*width:1200px;*/
+    /*主要內容區通常是不設定高度的*/
+    width: 800px;
+    margin: 0 auto;
+    background-color: #FFF;
+    padding: 20px 200px;
+}
+
+#content p {
+    line-height: 1.8;
+    padding-bottom: 16px;
+    /*設定文字落段下方空一行的間距*/
+    text-align: justify;
+}
+
+#down {
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #CCC;
+}
+
+#down h4 {
+    text-align: center;
+    line-height: 200px;
+    color: #FFF;
+    font-weight: normal;
+    /*解除粗體，把標題字的粗體變成細的*/
+}

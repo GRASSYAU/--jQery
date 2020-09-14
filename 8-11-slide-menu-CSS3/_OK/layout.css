@@ -1,0 +1,177 @@
+@import url("reset.css");
+body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+#main-page {
+    position: relative;
+    z-index: 8888;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    transition: 1s; /*設定動畫時間*/
+}
+
+.move-left {
+    transition: 1s; /*設定動畫時間*/
+    margin-left: -250px; /*主畫面往左移 250px*/
+}
+
+#menu {
+    position: fixed;
+    top: 60px;
+    right: 0px;
+    width: 250px;
+    height: 100%;
+    background-color: #888;
+}
+
+#menu ul {
+    width: 250px;
+    margin-top: 60px;
+}
+
+#menu li {
+    width: 250px;
+}
+
+#menu li a {
+    display: block;
+    width: 250px;
+    font-size: 18px;
+    line-height: 3;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    color: #fd914d;
+}
+
+#top-out {
+    width: 100%;
+    height: 60px;
+    background-color: #E75F08;
+    position: fixed;
+    /*固定不動*/
+    top: 0;
+    /*固定在最上面*/
+    z-index: 9999;
+    /*故意把 Z 寫很大*/
+}
+
+#top-out .nav {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#top-out .nav h3 {
+    color: #FFF;
+    line-height: 60px;
+    float: left;
+    text-transform: uppercase;
+}
+
+#top-out .nav ul {
+    float: right;
+}
+
+#top-out .nav li {
+    float: left;
+    margin-left: 10px;
+}
+
+#top-out .nav li a {
+    text-decoration: none;
+    position: relative;
+}
+
+#top-out .nav li a img {
+    text-decoration: none;
+    position: absolute;
+    right: 0px;
+    top: 8px;
+}
+
+#banner-out {
+    width: 100%;
+    height: 300px;
+    background-color: #FAB65C;
+    /*margin-top:60px;*/
+    padding-top: 60px;
+    /* banner區，使用 padding 避開被重疊的部份*/
+}
+
+#banner-out .banner {
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url(images/banner.jpg);
+}
+
+#banner-out .banner h3 {
+    padding-top: 100px;
+    padding-left: 30px;
+    color: #FFF;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+#banner-out .banner h4 {
+    font-size: 16px;
+    padding-left: 30px;
+    color: #FFF;
+    letter-spacing: 3px;
+}
+
+#content {
+    /*width:1200px;*/
+    width: 1140px;
+    margin: 0 auto;
+    padding: 30px;
+    /*margin-top:60px;*/
+    padding-bottom: 60px;
+    /* content區，使用 padding 避開被重疊的部份*/
+}
+
+#content h1 {
+    font-size: 24px;
+    padding-bottom: 16px;
+}
+
+#content p {
+    font-size: 15px;
+    line-height: 1.8;
+    padding-bottom: 16px;
+    text-align: justify;
+}
+
+#down-out {
+    width: 100%;
+    height: 60px;
+    background-color: #E75F08;
+}
+
+#down-out .down {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#down-out .down h3 {
+    color: #FFF;
+    line-height: 60px;
+    font-weight: normal;
+    float: left;
+}
+
+#down-out .down h4 {
+    color: #FFF;
+    line-height: 60px;
+    font-weight: normal;
+    float: right;
+}

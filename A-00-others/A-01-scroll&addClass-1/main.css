@@ -1,0 +1,42 @@
+html,body,div,h1,h2,h3,h4,h5,h6,p,ul,li,div,header,article,figure{  margin: 0;  padding: 0;}
+ul,ol {  list-style-type: none;}
+*,*:before,*:after {  box-sizing: border-box;}
+.clearfix:after{ content: ''; display: block; clear: both;}
+.text-center{ text-align: center;}
+.push-left{ float: left;}
+.push-right{ float: right;}
+
+body { font-family: Arial, Helvetica, "儷黑 Pro", "微軟正黑體", "新細明體", sans-serif; font-size: 15px;}
+
+.hdr-out{ background: #EEE; box-shadow: 0 0 10px #CCC inset; border-bottom: solid 1px #FFF;}
+.hdr-out .site-name{ font-size: 5em; color: #666; line-height: 3; text-shadow: 1px 1px #FFF;}
+
+.pd-list > li { padding: 10rem;}
+.pd-list > li:nth-child(even){ background-color: #eee;}
+.pd-list > li:nth-child(odd) .desc{ padding-left: 8rem;}
+.pd-list > li:nth-child(even) .desc{ padding-right: 8rem;}
+
+.pd-tit-out { margin-bottom: 3rem;}
+.pd-tit { font-size: 2.5rem;}
+
+.desc{ width: 60%;}
+.pd-con .img-out{ width: 40%;}
+.desc p { font-size: 1.5em; line-height: 1.7; margin-bottom: 1rem;}
+.img-out img{ display: block; width: 100%;}
+
+.ftr-out{ background-color: #666;}
+.ftr-out .site-name{ font-size: 2rem; line-height: 2; color: #fff;}
+
+/* for JS */
+.js-fadein-up,
+.js-fadein-down,
+.js-fadein-left,
+.js-fadein-right{ opacity: 0; transition: all .5s ease;}
+.js-fadein-up{ transform: translateY(-50px);}
+.js-fadein-bottom{ transform: translateY(50px);}
+.js-fadein-left{ transform: translateX(-50px);}
+.js-fadein-right{ transform: translateX(50px);}
+.js-fadein-up--active,
+.js-fadein-down--active,
+.js-fadein-left--active,
+.js-fadein-right--active{ transform: translate(0); opacity: 1;}
