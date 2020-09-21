@@ -1,11 +1,11 @@
-$("#btn1").click(function() {
-    $("#pic")
+$("#btn1").click(() => {
+  $("#pic").slideDown(300);
 });
 
-$("#btn2").click(function() {
-    $("#pic")
+$("#btn2").click(() => {
+  $("#pic").slideUp(300);
 });
 
-$("#btn3").click(function() {
-    $("#pic")
+$("#btn3").click(() => {
+  $("#pic").slideToggle(300);
 });

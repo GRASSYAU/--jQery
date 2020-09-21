@@ -1,8 +1,7 @@
-$("#right").click(function() {
-    $("#boat").stop(true,false).animate({ left: "+=300" }, 1200);
+$("#right").click(() => {
+  $("#boat").stop(true, false).animate({ left: "+=200" }, 500, "easelnBack");
 });
 
-$("#left").click(function() {
-    $("#boat").stop(true,false).animate({ left: "-=300" }, 1200);
+$("#left").click(() => {
+  $("#boat").stop(true, false).animate({ left: "-=200" }, 500, "easelnBack");
 });
-
