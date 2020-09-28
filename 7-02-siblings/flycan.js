@@ -4,6 +4,6 @@ $("#MENU li").hover(
     $(this).siblings().stop(true, false).animate({ top: "50" }, 300);
   },
   function () {
-    $("#MENU li").stop(true, false), animate({ top: "100" }), 300;
+    $("#MENU li").stop(true, false).animate({ top: "100" }), 300;
   }
 );
