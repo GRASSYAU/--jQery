@@ -1,17 +1,34 @@
+//使用普通function
 
-var WHO = 0; //代表一開始第一個兄弟序號是 0
+// var WHO = 0;
+// var header_li = $("#HEADER li");
 
-$("#HEADER li").eq(0).find("a").css({color:"#EEE"});//一開始先把第一個超連結變白色
-	
-$("#HEADER li").mouseover(function(){
-	
-	WHO = $(this).index(); //兄弟的序號變成目前被滑鼠摸到的這一個
-		
-	var NOWPOS =  $(this).position().left; //抓目前摸到的物件的座標
-			
-	$("#BB").stop(true, false).animate({left:NOWPOS},800,"easeOutElastic");
-			
-	$("#HEADER li").find("a").css({color:"#333"}); //全部的超連結變黑色
-			
+// header_li.eq(0).find("a").css({ color: "#fff" });
+
+// header_li.mouseover(function () {
+//   WHO = $(this).index();
+//   var nowpos = $(this).position().left;
+//   $("#BB").stop(true, false).animate({ left: nowpos }, 300, doafter);
+//   header_li.find("a").css({ color: "#000" });
+// });
+
+// function doafter() {
+//   header_li.eq(WHO).find("a").css({ color: "#fff" });
+// }
+
+//callback 使用暱名
+let WHO = 0;
+let header_li = $("#HEADER li");
+
+header_li.eq(0).find("a").css({ color: "#fff" });
+
+header_li.mouseover(function () {
+  WHO = $(this).index();
+  var nowpos = $(this).position().left;
+  $("#BB")
+    .stop(true, false)
+    .animate({ left: nowpos }, 300, function () {
+      header_li.eq(WHO).find("a").css({ color: "#fff" });
+    });
+  header_li.find("a").css({ color: "#000" });
 });
-

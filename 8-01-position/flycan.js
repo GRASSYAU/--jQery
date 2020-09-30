@@ -4,7 +4,9 @@ header_li.eq(0).find("a").css({ color: "#fff" });
 
 header_li.mouseover(function () {
   var nowpos = $(this).position().left;
-  $("#BB").stop(true, false).animate({ left: nowpos });
+
+  $("#BB").stop(true, false).animate({ left: nowpos }, 3000);
   header_li.find("a").css({ color: "#000" });
+
   $(this).find("a").css({ color: "#fff" });
 });
